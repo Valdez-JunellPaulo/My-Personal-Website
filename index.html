@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Junell's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    
+    <header>
+        <h1>Junell Paulo Valdez</h1>
+        <p>Student | Future Programmer</p>
+    </header>
+
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#goals">Goals</a>
+    </nav>
+
+    
+    <section id="about" class="card">
+        <h2>About Me</h2>
+        <img src="c:\Users\Samantha\Downloads\Jaypee.jpg" class="profile">
+        <p>
+            Hello! My name is Junell Paulo Valdez, a student who is passionate about technology and learning new skills.
+            I enjoy discovering how things work, especially in computers and websites.
+        </p>
+        <p>
+            I am a hardworking and motivated individual who always tries to improve every day. I believe that success
+            comes from patience, effort, and consistency.
+        </p>
+    </section>
+
+    
+    <section id="hobbies" class="card">
+        <h2>My Hobbies</h2>
+
+        <div class="grid">
+
+            <div class="box">
+                <img src="c:\Users\Samantha\Downloads\Gaming.jpg">
+                <h3>Gaming</h3>
+                <p>
+                    I enjoy playing games like Minecraft because it allows me to build, explore, and express creativity.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="c:\Users\Samantha\Downloads\HEHE\assets\Images\Music.jpg">
+                <h3>Music</h3>
+                <p>
+                    Listening to music helps me relax and focus. It is one of my favorite ways to spend my free time.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="c:\Users\Samantha\Downloads\HEHE\assets\Images\Cycling.jpg">
+                <h3>Cycling</h3>
+                <p>
+                    Cycling is my favorite sport. It keeps me active, healthy, and allows me to enjoy the outdoors.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="goals" class="card">
+        <h2>My Goals</h2>
+        <p>
+            My goal is to become successful in the field of technology. I want to improve my skills and create
+            useful applications in the future.
+        </p>
+        <p>
+            I also want to support my family and achieve my dreams through hard work and dedication.
+        </p>
+    </section>
+
+    
+    <section class="card center">
+        <button onclick="greetUser()">Click Me</button>
+    </section>
+
+    
+    <footer>
+        <p>© 2026 Junell Paulo Valdez</p>
+    </footer>
+
+    
+    <script>
+        function greetUser() {
+            let name = prompt("Enter your name:");
+            if (name) {
+                alert("Welcome to my website, " + name + "!");
+            } else {
+                alert("Welcome to my website!");
+            }
+        }
+    </script>
+
+</body>
+</html>
